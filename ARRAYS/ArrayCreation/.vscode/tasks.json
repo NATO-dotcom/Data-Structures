@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and Run arr.c",
+			"type": "shell",
+			"command": "gcc arr.c -o arr && ./arr",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"detail": "Compile and run arr.c"
+		}
+	]
+}
