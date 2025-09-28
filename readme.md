@@ -1,32 +1,97 @@
-# 📚 Data Structures & Python Assignments
+# Data Structures Implementations 🚀
 
-This repository contains implementations and solutions for various **Data Structures** problems and Python programming assignments. It is designed to help learners understand core concepts in an organized way, from arrays to more advanced topics.
-
----
-
-## 🗂 Repository Structure
-
-- **ARRAYS/** – Solutions related to arrays (creation, insertion, deletion, etc.)  
-- **LinkedLists/** – Implementations of singly and doubly linked lists  
-- **StacksQueues/** – Stack and queue data structures and their operations  
-- **SortingSearching/** – Sorting algorithms (bubble, merge, quicksort) and search algorithms  
-- **Recursion/** – Examples and exercises using recursion  
-- **Machine_learning/** – Basic Python-based machine learning assignments  
-
-> Each folder contains Python scripts organized by topic.
+This repository contains my **implementations of fundamental Data Structures** in **C, C++, Java, and Python**.
+It serves as a reference and practice ground for building a strong foundation in **DSA (Data Structures & Algorithms)**.
 
 ---
 
-## 📝 Topics Covered
+## 📂 Repository Structure
 
-1. **Arrays** – Creation, insertion, deletion, and manipulation  
-2. **Linked Lists** – Singly and doubly linked list operations  
-3. **Stacks & Queues** – Implementation and usage  
-4. **Sorting & Searching Algorithms** – Bubble sort, merge sort, quicksort, linear and binary search  
-5. **Recursion** – Recursive solutions for common problems  
-6. **Basic Machine Learning** – Simple ML exercises and Python implementations  
+```
+Data-Structures/
+│── ARRAYS/
+│   ├── ArrayCreation/
+│   ├── ArrayDeletion/
+│   ├── ArraySearch/
+│   ├── ArrayUpdate/
+│
+│── StackImplementation/
+│   ├── stack.c
+│   ├── stack.cpp
+│   ├── stack.java
+│   ├── stack.py
+│
+│── StackMethods/
+│   ├── stack.push/
+│   ├── stack.pop/
+│
+│── QueueImplementation/
+│   ├── queue.c
+│   ├── queue.cpp
+│   ├── queue.java
+│   ├── queue.py
+│
+└── README.md
+```
 
 ---
+
+## 🛠️ Languages Used
+
+* **C** 🟦
+* **C++** 🟩
+* **Java** ☕
+* **Python** 🐍
+
+---
+
+## 📘 Topics Covered
+
+* Arrays
+* Stacks (push, pop, peek, implementation)
+* Queues (enqueue, dequeue, circular queue)
+* Linked List *(coming soon)*
+* Trees *(coming soon)*
+* Graphs *(coming soon)*
+
+---
+
+## 🚀 How to Run the Code
+
+### C / C++
+
+```bash
+# Compile
+gcc filename.c -o output     # for C
+g++ filename.cpp -o output   # for C++
+
+# Run
+./output
+```
+
+### Java
+
+```bash
+javac Filename.java
+java Filename
+```
+
+### Python
+
+```bash
+python3 filename.py
+```
+
+---
+
+## 🎯 Goals
+
+* Build all major data structures from scratch
+* Implement each in **C, C++, Java, and Python**
+* Strengthen understanding of DSA for interview prep
+
+---
+
 
 ## 💻 Getting Started
 
@@ -34,3 +99,6 @@ This repository contains implementations and solutions for various **Data Struct
 ```bash
 git clone https://github.com/NATO-dotcom/Data-Structures.git
 cd Data-Structures
+
+
+💡 *“First learn the basics, then apply them everywhere.”*
