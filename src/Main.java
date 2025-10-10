@@ -1,9 +1,23 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+import java.util.Stack;
+public class Main{
+    public static void main (String[] args) {
+        Stack<String>stack = new Stack<String>();
+        stack.push("Minecraft");
+        stack.push("Pubg");
+        stack.push("Mini-militia");
+        stack.push("GTA");
+        stack.push("Slap and run");
+
+        //remove elements
+        stack.pop();
+        System.out.println(stack.peek());
+        //System.out.println(stack.isEmpty());
+
+        //searching elements
+        System.out.println(stack.search("Payback 2"));
+
+
+        System.out.println(stack);
+
     }
 }
